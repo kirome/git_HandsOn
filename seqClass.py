@@ -31,4 +31,4 @@ if args.motif:
     if re.search(args.motif, args.seq):
         print("The sequence contains the motif")
     else:
-        print("NOT FOUND")
+        print("The sequence does not contain the motif")
